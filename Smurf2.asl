@@ -3,7 +3,7 @@ GWorld Values & Hashes:
 
 GOG 1.03.01: Hash: BAE78A1CDAC9B6A0748F7068D2AD4A8E || Memory Size: 90656768
 Steam 1.03.01: Hash: 46CF383D59B0F0B4FAD0C0E95C427416 || Memory Size: 90656768
-Steam 1.03.03: Hash: 46CF383D59B0F0B4FAD0C0E95C427416 || Memory Size: 90656768
+Steam 1.03.03: Hash: 46CF383D59B0F0B4FAD0C0E95C427416 || Memory Size: 90656768 shit they're the same thing idk
 
 Epic 1.03.08: Hash: 44401A57D34A3043925DEE4F71F8DE80 || Memory Size: 90656768
 
@@ -61,13 +61,6 @@ state("SM2-Win64-Shipping","Steam 1.03.03")
     byte menuPage: 0x05170570, 0x30, 0x6D0, 0x3A8;
     byte cutscene: 0x0503FF28, 0x130, 0xB18, 0xC70, 0x5A8, 0x30, 0x3F0, 0x8;
 }
-/*state("SM2-Win64-Shipping","Steam 1.03.03")
-{
-    byte levelID: 0x04D0D040, 0x1E0, 0x20, 0xD28, 0x278;
-    byte loads: 0x05170570, 0x30, 0x6D0, 0x3D0, 0x20, 0x2D0, 0x3D8;
-    byte menuPage: 0x05170570, 0x30, 0x6D0, 0x3A8;
-    byte cutscene: 0x0503FF28, 0x130, 0xB18, 0xC70, 0x5A8, 0x30, 0x3F0, 0x8;
-}*/
 state("SM2-Win64-Shipping","Epic Games 1.03.08")
 {
     byte levelID: 0x04D0DFF8, 0x1E0, 0x20, 0xD28, 0x278;
@@ -183,7 +176,7 @@ start
 
 split
 {
-    return ((settings["hub1"] && old.levelID == 28 && current.levelID == 1))   ||
+    return ((settings["hub1"] && old.levelID == 28 && current.levelID == 1)    ||
             (settings["heart"] && old.levelID == 1 && current.levelID == 2)    ||
             (settings["barn"] && old.levelID == 2 && current.levelID == 3)     ||
             (settings["river"] && old.levelID == 3 && current.levelID == 28)   ||
@@ -195,7 +188,7 @@ split
             (settings["bath"] && old.levelID == 7 && current.levelID == 8)     ||
             (settings["paradise"] && old.levelID == 8 && current.levelID == 9) ||
             (settings["panic"] && old.levelID == 9 && current.levelID == 10)   ||
-            (settings["end"] && old.levelID == 10 && current.levelID == 35);
+            (settings["end"] && old.levelID == 10 && current.levelID == 35));
 }
 
 
