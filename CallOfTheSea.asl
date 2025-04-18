@@ -213,8 +213,8 @@ split
                 //Chapter 3
                 (settings["load_screen3"] && old.levelID == 6 && current.levelID == 7)                      ||
                 //Chapter 4
-                (settings["desert"] && old.levelID == 7 && current.levelID == 8)                            ||
-                (settings["return"] && old.levelID == 8 && current.levelID == 7)                            ||
+                //(settings["desert"] && old.levelID == 7 && current.levelID == 8)                            ||
+                //(settings["return"] && old.levelID == 8 && current.levelID == 7)                            ||
                 (settings["load_screen4"] && old.levelID == 7 && current.levelID == 9)                      ||
                 //Chapter 5
                 (settings["load_screen5"] && old.levelID == 9 && current.levelID == 10)                     ||
