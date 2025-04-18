@@ -149,15 +149,15 @@ init
     switch (MD5Hash)
     {
         case "BAE78A1CDAC9B6A0748F7068D2AD4A8E":
-            version = "GOG";
+            version = "GOG 1.03.01";
             break;
 
         case "46CF383D59B0F0B4FAD0C0E95C427416":
-            version = "Steam";
+            version = "Steam 1.03.01";
             break;
 
         case "44401A57D34A3043925DEE4F71F8DE80":
-            version = "Epic Games";
+            version = "Epic Games 1.03.08";
             break;
     }
 }
