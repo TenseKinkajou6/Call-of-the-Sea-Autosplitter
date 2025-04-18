@@ -132,10 +132,10 @@ startup
     settings.Add("chapter_4", true, "Chapter 4: Quite a Show", "any");
     settings.SetToolTip("chapter_4", "Allow the Autosplitter to split inside Chapter 4");
     settings.CurrentDefaultParent = "chapter_4";
-    settings.Add("desert", false, "Desert");
-    settings.SetToolTip("desert", "Split at load screen leading into Norah's desert expedition dream");
-    settings.Add("return", false, "Awaken");
-    settings.SetToolTip("return", "Split at load screen exiting the desert dream");
+    //settings.Add("desert", false, "Desert");
+    //settings.SetToolTip("desert", "Split at load screen leading into Norah's desert expedition dream");
+    //settings.Add("return", false, "Awaken");
+    //settings.SetToolTip("return", "Split at load screen exiting the desert dream");
     settings.Add("load_screen4", true, "Level Transition");
     settings.SetToolTip("load_screen4", "Split at load screen leading into Chapter 5");
     //settings.Add("on_text5", false, "On Text");
