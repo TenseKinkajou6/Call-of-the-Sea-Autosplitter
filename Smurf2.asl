@@ -1,25 +1,22 @@
 /*
 GWorld Values & Hashes:
 
-GOG 1.03.01: "SM2-Win64-Shipping.exe"+5187E70 || Hash: BAE78A1CDAC9B6A0748F7068D2AD4A8E || Memory Size: 90656768
-Steam 1.03.01: "SM2-Win64-Shipping.exe"+ XXXXXXX || Hash: 46CF383D59B0F0B4FAD0C0E95C427416 || Memory Size: 90656768
-
-
-Steam:
-Epic Games:
+GOG 1.03.01: Hash: BAE78A1CDAC9B6A0748F7068D2AD4A8E || Memory Size: 90656768
+Steam 1.03.01: Hash: 46CF383D59B0F0B4FAD0C0E95C427416 || Memory Size: 90656768
+Epic 1.03.08: Hash: 44401A57D34A3043925DEE4F71F8DE80 || Memory Size: 90656768
 
 Level Values:
 L00 = 0,
-L01 = 1,
-L02 = 2,
-L03 = 3,
-L04 = 4,
-L05 = 5,
-L06 = 6,
-L07 = 7,
-L08 = 8,
-L09 = 9,
-L10 = 10,
+Heart of the Forest = 1,
+Abandoned Barn = 2,
+Enchanted River = 3,
+Ice Ambush = 4,
+Depths of the Mountain = 5,
+Vertiginous Descent = 6,
+Boiling Baths = 7,
+Smurf Paradise = 8,
+Volcanic Panic = 9,
+Astral Nothingness = 10,
 L11 = 11,
 L12 = 12,
 L13 = 13,
@@ -36,9 +33,9 @@ L23 = 23,
 L24 = 24,
 L25 = 25,
 L26 = 26,
-MAINMENU = 27,
-HUB = 28,
-TUTO = 29,
+Main Menu = 27,
+Hub = 28,
+Tutorial = 29,
 DEBUG = 30,
 L27 = 31,
 L28 = 32,
