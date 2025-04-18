@@ -148,7 +148,7 @@ init
     using (var md5 = System.Security.Cryptography.MD5.Create())
     using (var s = File.Open(modules.First().FileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
     MD5Hash = md5.ComputeHash(s).Select(x => x.ToString("X2")).Aggregate((a, b) => a + b);
-    print("Hash is: " MD5Hash);
+    print("Hash is: " + MD5Hash);
 
     switch (MD5Hash)
     {
