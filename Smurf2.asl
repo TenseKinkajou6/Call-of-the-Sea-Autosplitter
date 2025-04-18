@@ -197,7 +197,7 @@ split
 
 reset
 {
-    return (old.levelID != 27 && current.levelID == 27);
+    return (old.levelID != 27 && old.levelID != 35 && current.levelID == 27);
 }
 
 
