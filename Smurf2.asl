@@ -172,10 +172,7 @@ init
 
 start
 {
-    if(old.levelID == 27 && current.levelID == 29)
-    {
-        return true;
-    }
+    return(old.levelID == 27 && current.levelID == 29);
 }
 
 
