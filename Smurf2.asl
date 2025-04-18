@@ -152,7 +152,7 @@ init
             break;
 
         case "46CF383D59B0F0B4FAD0C0E95C427416":
-            version = "Steam 1.03.01";
+            version = "Steam 1.03.03";
             break;
 
         case "44401A57D34A3043925DEE4F71F8DE80":
