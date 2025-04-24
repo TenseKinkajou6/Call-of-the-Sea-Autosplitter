@@ -1,7 +1,7 @@
 /*
 GWorld Values & Hashes:
 
-GOG 1.03.01: Hash: BAE78A1CDAC9B6A0748F7068D2AD4A8E || Memory Size: 90656768
+GOG 1.03.01: "SM2-Win64-Shipping.exe"+5187E70 || Hash: BAE78A1CDAC9B6A0748F7068D2AD4A8E || Memory Size: 90656768
 Steam 1.03.03: "SM2-Win64-Shipping.exe"+5187EB0 || Hash: 46CF383D59B0F0B4FAD0C0E95C427416 || Memory Size: 90656768
 
 Epic 1.03.08: Hash: 44401A57D34A3043925DEE4F71F8DE80 || Memory Size: 90656768
@@ -48,7 +48,7 @@ ELevel_MAX = 36
 
 state("SM2-Win64-Shipping","GOG 1.03.01")
 {
-    byte levelID: 0x04D0CFA8, 0x1E0, 0x20, 0xD28, 0x278;
+    byte levelID: 0x5187E70, 0x180, 0x278;
     byte loads: 0x05170530, 0x30, 0x6D0, 0x3D0, 0x20, 0x2D0, 0x3D8;
     byte menuPage: 0x05170530, 0x30, 0x6D0, 0x3A8;
     byte cutscene: 0x050431A0, 0x750, 0x50, 0x6B0, 0x230, 0x130, 0x8;
