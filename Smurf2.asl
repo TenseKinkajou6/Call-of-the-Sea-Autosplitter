@@ -206,5 +206,5 @@ reset
 
 isLoading
 {
-    return(current.loads == 0)
+    return(current.loads == 0);
 }
