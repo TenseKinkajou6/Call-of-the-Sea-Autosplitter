@@ -202,9 +202,7 @@ reset
 
 
 
-/*
 isLoading
 {
     return(loadingWidget != 0);
 }
-*/
