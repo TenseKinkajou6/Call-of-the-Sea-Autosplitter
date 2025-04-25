@@ -147,6 +147,7 @@ init
     MD5Hash = md5.ComputeHash(s).Select(x => x.ToString("X2")).Aggregate((a, b) => a + b);
     print("Hash is: " + MD5Hash);
 
+    /*
     switch (MD5Hash)
     {
         case "BAE78A1CDAC9B6A0748F7068D2AD4A8E":
@@ -161,7 +162,12 @@ init
             version = "Epic Games 1.03.08";
             break;
     }
-}
+    */
+
+    if(MD5Hash == "BAE78A1CDAC9B6A0748F7068D2AD4A8E") {return(version = "GOG 1.03.01");}
+    else if(MD5Hash == "46CF383D59B0F0B4FAD0C0E95C427416") {return(version = "Steam 1.03.03");}
+    else if(MD5Hash == "44401A57D34A3043925DEE4F71F8DE80") {return(version = "Epic Games 1.03.08");}
+    else{throw new Exception("triggerInit{} - pointer failed or returned a null. " + "Initialization is not done yet!");}
 
 
 
