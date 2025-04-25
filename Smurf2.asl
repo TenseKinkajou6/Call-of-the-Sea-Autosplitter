@@ -168,6 +168,7 @@ init
     else if(MD5Hash == "46CF383D59B0F0B4FAD0C0E95C427416") {return(version = "Steam 1.03.03");}
     else if(MD5Hash == "44401A57D34A3043925DEE4F71F8DE80") {return(version = "Epic Games 1.03.08");}
     else{return("You fucked up livesplit, fix yourself");}
+}
 
 
 
