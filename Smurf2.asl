@@ -201,14 +201,10 @@ reset
 }
 
 
-gameTime
-{
-    return loadingWidget != 0;
-}
 
 /*
 isLoading
 {
-    return(current.loads == 0);
+    return(loadingWidget != 0);
 }
 */
