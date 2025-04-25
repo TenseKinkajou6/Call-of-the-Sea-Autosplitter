@@ -204,5 +204,5 @@ reset
 
 isLoading
 {
-    return(loadingWidget != 0);
+    return(current.loadingWidget != 0);
 }
