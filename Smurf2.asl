@@ -213,5 +213,5 @@ reset
 
 isLoading
 {
-    return(current.doBeLoading == 13);
+    return(current.loads == 0);
 }
